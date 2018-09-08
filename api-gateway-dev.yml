@@ -1,0 +1,16 @@
+zuul:
+  routes:
+    myName:
+      path: /myProduct/**
+      serviceId: product
+      #sensitiveHeaders设置为空，不过滤敏感头信息
+      sensitiveHeaders:
+  #简洁写法 服务id : 路由路径
+#    product: /myProduct/**
+
+#配置不能被访问的路径 - 表示set
+#  ignored-patterns:
+#    - /**/product/list
+management:
+  security:
+    enabled: false
