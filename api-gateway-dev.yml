@@ -1,4 +1,6 @@
 zuul:
+  #设置全局敏感头忽略
+  sensitive-headers:
   routes:
     myName:
       path: /myProduct/**
