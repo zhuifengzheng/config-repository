@@ -11,9 +11,9 @@ spring:
       host: 127.0.0.1
   jpa:
     show-sql: true
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: config
-      profile: dev
+#   cloud:
+#     config:
+#       discovery:
+#         enabled: true
+#         service-id: config
+#       profile: dev
